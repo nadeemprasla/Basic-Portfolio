@@ -51,12 +51,12 @@ nav{
       }
 
 
-
 .aboutme{
     border: 1px solid black;
     width: 960px;
     margin: 10px auto;
     background-color: white;
+    
 
 }
 .aboutme h2{
@@ -65,6 +65,7 @@ nav{
     padding-bottom: 30px;
     margin: 30px 30px;
     border-bottom: 1px solid black;
+    
 }
 .aboutme p{
     line-height: 1.5;
@@ -72,11 +73,37 @@ nav{
     font-size: 20px;
 }
 .aboutme img{
-    float: left;
     /* padding-left: 30px; */
     margin: 0px 30px 20px 30px;
     
 }
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    height: 200px;
+}
+form{
+    margin: 0 30px;
+}
+input[type=submit]{
+    padding: 5px 20px;
+    margin: 0 0 10px 0;
+    background-color: teal;
+    color: white;
+}
+.portimage{
+    margin: 0px 20px 20px 30px;
+}
+
 
 #copyright{
     background-color: gray;
