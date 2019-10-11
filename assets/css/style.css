@@ -1,19 +1,18 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+ }
+ body{
+      background-image: url(../images/triangle-mosaic.png);
+    
 }
-
-header{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 
 .topnav{
     border-bottom: 1px solid black;
 }
 nav{
     width:960px;
-    margin-left:200px;
+    margin: 0 auto;
 }
 .name{
     background-color: teal;
@@ -22,36 +21,45 @@ nav{
     font-size: 40px;
     font-weight: bold;
     padding: 30px 40px;
+    font-family: 'Grenze', serif;
+    letter-spacing: 5px;
 }
 .navlink{
     float:right;
-    padding: 0px 10px;
     font-size:20px;
-    margin: 40px 0px;
-    padding: 0px 25px;
+    margin: 20px 0px;
+    padding: 15px 25px;
     text-decoration: none;
 }
+.navlink:hover{
+    box-shadow: 5px 5px 40px red;
+    background-color: darkslategray;
+    color:white;
+}
+.navlink:focus{
+    color:blue;
+}
+
 .linkborder {
     border-right: 1px solid gray;
 }
 
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+      }
 
-.content{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-image: url(../images/triangle-mosaic.png);
-    /* padding-bottom: 100px; */
 
-}
+
 .aboutme{
     border: 1px solid black;
     width: 960px;
-    margin: 10px 200px;
+    margin: 10px auto;
     background-color: white;
 
 }
-.aboutme h1{
+.aboutme h2{
     font-size: 30px;
     font-weight: bolder;
     padding-bottom: 30px;
@@ -70,32 +78,17 @@ nav{
     
 }
 
-   
-
-}
-   
-.clear::after{
-    content: "";
-    display: block;
-    clear: both;
-      }
-
-
-.copyright{
-    position: fixed;
-    bottom:0;
+#copyright{
     background-color: gray;
+    position: fixed;
+    bottom: 0;
     width: 100%;
-
-
+    padding-top: 30px;
 }
 
-.copyright footer{
-    width: 960px;
-    margin-left: 200px;
-    padding-top: 40px;
+#copyright footer{
     color: white;
     text-align: center;
-    /* position: fixed;
-    bottom: 0; */
+    width: 960px;
+    margin: 0px auto;;
 }
